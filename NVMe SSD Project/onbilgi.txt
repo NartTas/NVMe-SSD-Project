@@ -1,0 +1,42 @@
+Bilgisayarda temel olarak iki çeşit hafıza vardır. Biri geçici bilgilerin saklandığı RAM (Random Access Memory [Rastgele Erişim Belleği]),
+ikincisi kalıcı bilgilerin depolandığı HDD (Hard Disk Drive) veya SSD (Solid State Driver [Katı Hal Sürücüsü])'lerdir.
+            HDD, SSD ve RAM Arasindaki Farklar
+
+            HDD (Hard Disk Drive): Hard Disklerin icerisinde bulundurdugu teknoloji ise oldukca basittir. HDD içerisinde donen bir mil bulunur.
+            Bu mil uzerine yerlestirilmis manyetik plakalar (disk) mil yardimi ile surekli bir donus saglar. Bu donme esnasinda veriler okuma yazma kafasi dedigimiz bir
+            arac ile diske aktarilir ya da okunur. Bu kafa disklere cok ama cok yakindir ancak kesinlikle bir temasta bulunmaz, zira diskin cizilip bozuk sektorler
+            oluşturmasına sebep olabilir. Standart bir HDD bu şekilde çalışır.
+
+            SSD (Solid State Drive [Katı Hal Sürücü]):SSD‘nin çalışma sistemi ve teknolojisine değinecek olursak, tam adı Solid State Driver olarak karşımıza çıkarlar.
+            SSD’ler standart harddisklerin yaptığı tüm işlemleri işlevsel olarak gerçekleştirir ancak bünyesinde herhangi bir dönen disk, okuma yazma kafası gibi
+            parçalar barındırmaz. Bundan dolayı adı "Katı Hal Diskidir". NAND bellek dediğimiz, tamamen devre ile bütünleşmiş hafızalardan oluşur. Bilgiler 0.01ms kadar kısa sürede bu hafızalara yazılır
+            ya da okunur. Günümüz RAM’lere ne kadar benziyor olsalar da bilgileri kalıcı olarak depolayabildikleri için RAM’lerden sıyrılmaktadırlar. Günümüzde 1-2 TB
+            HDD' nin maliyeti 500 TL civarındayken 2 TB SSD'lerin maliyeti 2300 TL civarındadır.
+
+            RAM (Random Access Memory [Rastgele Erişim Belleği]): RAM'ler bilgisayardaki hızlı ulaşılması gereken verilerin güç kesilene kadar tutulduğu bir parçadır.
+            Bilgisayar kapatıldığında veya güç kesildiğinde tutulan veriler silinir. Geleneksel HDD'lere göre çok hızlıdırlar. Yeni yeni gelişen SSD teknolojisi HDD
+            disklerden daha hızlı olsa da RAM' in hızına yetişmelerine vardır. Eğer RAM'ler hayatımızda olmasaydı bilgisayarda bir iş yapmamız uzun zamanlar alabilirdi.
+            RAM'lerin boyutları geleneksel HDD'lere veya SSD'lere göre düşüktür. Her bir yeni sekme açtığınızda veya bir programda geçici verilerin depolandığı birimdir.
+            Ancak diğer aygıtlara göre maliyetleri de performansları gibi daha fazladır.
+
+            Bağlantı Arayüzleri
+
+            HDD'lerin 3 farklı bağlantı arabirimi vardır. Bunlar PATA (IDE), SATA ve SCSI şeklindedir. PATA ve SATA kişisel bilgisayarlarda kullanılan bant genişliği
+            yüksek bir arabirimdir. SCSI ise sunucularda birden fazla HDD'yi bağlamayı sağlayan bir arayüzdür.
+
+            SSD'lerde ise HDD'lerde kullanılan SATA ve M.2 dediğimiz anakart üzerine doğrudan bağlantısı kurulan miniPCI soketlerinden oluşuyor.
+            Esasen PCI Express yuvalarının da SSD’ler tarafından kullanıldığını görmekteyiz çünkü bu slotlar çok yüksek bant genişliği sağladıkları için SSD kullanımında
+            iyi performanslar sunuyorlar.
+
+            NVMe M.2 SDD'LER
+
+            NVMe, PCI-Express veri yolu üzerinden yüksek hızlarda veri aktarımı yapmayı sağlayan bir protokoldür. AHCI’nin yerini alan NVMe, günümüzde SSD’lerde
+            yüksek performansı nedeniyle tercih ediliyor. SATA SSD’lere nazaran çok daha hızlı olan NVMe SSD’ler artık yavaş yavaş piyasanın hakimi olmaya başladı.
+            Bu yüksek performanslarının bir sonucu olarak da ısınırlar ve maliyetleri diğer depolama aygıtlarına göre daha fazladır. Bu ısınmayı önleyecek bazı
+            tasarımlar piyasada bulunmakta. Bunlardan biri de:
+
+KAYNAK
+https://pchocasi.com.tr/hdd-vs-sdd-nedir-ne-degildir-36016/
+https://www.technopat.net/2016/02/24/pcie-ssd-nedir/
+https://www.technopat.net/2020/07/13/ram-nedir/
+https://www.technopat.net/2020/07/29/nvme-nedir-sata-farki/
